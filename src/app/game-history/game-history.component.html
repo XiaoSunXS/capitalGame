@@ -1,0 +1,8 @@
+<div *ngIf="mockGameHistory.length">
+    <div>
+        <div *ngFor="let game of mockGameHistory">
+            Game time: {{ game.timestamp | date: 'yyyy-MM-dd'}}
+            Game score: {{game.correctAnswerCount}} /{{game.questionCount}}
+        </div>
+    </div>
+</div>

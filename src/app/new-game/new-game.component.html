@@ -1,0 +1,18 @@
+<h2>New game</h2>
+<div *ngIf="currentQuestonIndex < defaultQuestionCount">
+    <div>
+        What is the capital city of {{question[currentQuestonIndex].country }}?
+    </div>
+    <div *ngFor="let option of question[currentQuestonIndex].options">
+        <button (click)="updateGameResult(question[currentQuestonIndex].correctAnswer===option)">
+            {{option}}
+        </button>
+    </div>
+</div>
+<div *ngIf="currentQuestonIndex >=defaultQuestionCount">
+    <h3>Your score</h3>
+    {{correctAnswerCount}} / {{defaultQuestionCount}}
+    <button>
+        Save my score
+    </button>
+</div>

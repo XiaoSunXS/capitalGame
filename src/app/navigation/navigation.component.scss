@@ -1,0 +1,13 @@
+@import '../../styles.scss';
+
+a {
+    padding: 10px;
+    margin: 10px;
+    text-decoration: none;
+    color: $gray-900;
+    border-radius: 4px;
+}
+
+a:hover {
+    text-decoration: underline;
+}

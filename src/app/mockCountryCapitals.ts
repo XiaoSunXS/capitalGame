@@ -1,0 +1,247 @@
+export const MOCK_COUNTRY_CAPITALS = [
+    {
+        "city": "Tirana",
+        "country": "Albania"
+    },
+    {
+        "city": "Andorra la Vella",
+        "country": "Andorra"
+    },
+    {
+        "city": "Yerevan",
+        "country": "Armenia"
+    },
+    {
+        "city": "Vienna",
+        "country": "Austria"
+    },
+    {
+        "city": "Baku",
+        "country": "Azerbaijan"
+    },
+    {
+        "city": "Minsk",
+        "country": "Belarus"
+    },
+    {
+        "city": "Brussels",
+        "country": "Belgium"
+    },
+    {
+        "city": "Sarajevo",
+        "country": "Bosnia and Herzegovina"
+    },
+    {
+        "city": "Sofia",
+        "country": "Bulgaria"
+    },
+    {
+        "city": "Zagreb",
+        "country": "Croatia"
+    },
+    {
+        "city": "Nicosia",
+        "country": "Cyprus"
+    },
+    {
+        "city": "Prague",
+        "country": "Czech Republic"
+    },
+    {
+        "city": "Copenhagen",
+        "country": "Denmark"
+    },
+    {
+        "city": "Tallinn",
+        "country": "Estonia"
+    },
+    {
+        "city": "Helsinki",
+        "country": "Finland"
+    },
+    {
+        "city": "Paris",
+        "country": "France"
+    },
+    {
+        "city": "Tbilisi",
+        "country": "Georgia"
+    },
+    {
+        "city": "Berlin",
+        "country": "Germany"
+    },
+    {
+        "city": "Athens",
+        "country": "Greece"
+    },
+    {
+        "city": "Budapest",
+        "country": "Hungary"
+    },
+    {
+        "city": "Reykjavik",
+        "country": "Iceland"
+    },
+    {
+        "city": "Dublin",
+        "country": "Ireland"
+    },
+    {
+        "city": "Rome",
+        "country": "Italy"
+    },
+    {
+        "city": "Pristina",
+        "country": "Kosovo"
+    },
+    {
+        "city": "Riga",
+        "country": "Latvia"
+    },
+    {
+        "city": "Vaduz",
+        "country": "Liechtenstein"
+    },
+    {
+        "city": "Vilnius",
+        "country": "Lithuania"
+    },
+    {
+        "city": "Luxembourg",
+        "country": "Luxembourg"
+    },
+    {
+        "city": "Valletta",
+        "country": "Malta"
+    },
+    {
+        "city": "Chisinau",
+        "country": "Moldova"
+    },
+    {
+        "city": "Monaco",
+        "country": "Monaco"
+    },
+    {
+        "city": "Podgorica",
+        "country": "Montenegro"
+    },
+    {
+        "city": "Amsterdam",
+        "country": "Netherlands"
+    },
+    {
+        "city": "Skopje",
+        "country": "North Macedonia"
+    },
+    {
+        "city": "Oslo",
+        "country": "Norway"
+    },
+    {
+        "city": "Warsaw",
+        "country": "Poland"
+    },
+    {
+        "city": "Lisbon",
+        "country": "Portugal"
+    },
+    {
+        "city": "Bucharest",
+        "country": "Romania"
+    },
+    {
+        "city": "Moscow",
+        "country": "Russia"
+    },
+    {
+        "city": "San Marino",
+        "country": "San Marino"
+    },
+    {
+        "city": "Belgrade",
+        "country": "Serbia"
+    },
+    {
+        "city": "Bratislava",
+        "country": "Slovakia"
+    },
+    {
+        "city": "Ljubljana",
+        "country": "Slovenia"
+    },
+    {
+        "city": "Madrid",
+        "country": "Spain"
+    },
+    {
+        "city": "Stockholm",
+        "country": "Sweden"
+    },
+    {
+        "city": "Bern",
+        "country": "Switzerland"
+    },
+    {
+        "city": "Ankara",
+        "country": "Turkey"
+    },
+    {
+        "city": "Kyiv",
+        "country": "Ukraine"
+    },
+    {
+        "city": "London",
+        "country": "United Kingdom"
+    },
+    {
+        "city": "Vatican City",
+        "country": "Vatican City"
+    }, { "city": "Kabul", "country": "Afghanistan" },
+    { "city": "Yerevan", "country": "Armenia" },
+    { "city": "Baku", "country": "Azerbaijan" },
+    { "city": "Manama", "country": "Bahrain" },
+    { "city": "Dhaka", "country": "Bangladesh" },
+    { "city": "Thimphu", "country": "Bhutan" },
+    { "city": "Bandar Seri Begawan", "country": "Brunei" },
+    { "city": "Phnom Penh", "country": "Cambodia" },
+    { "city": "Beijing", "country": "China" },
+    { "city": "Tbilisi", "country": "Georgia" },
+    { "city": "New Delhi", "country": "India" },
+    { "city": "Jakarta", "country": "Indonesia" },
+    { "city": "Tehran", "country": "Iran" },
+    { "city": "Baghdad", "country": "Iraq" },
+    { "city": "Jerusalem", "country": "Israel" },
+    { "city": "Tokyo", "country": "Japan" },
+    { "city": "Amman", "country": "Jordan" },
+    { "city": "Astana", "country": "Kazakhstan" },
+    { "city": "Kuwait City", "country": "Kuwait" },
+    { "city": "Bishkek", "country": "Kyrgyzstan" },
+    { "city": "Vientiane", "country": "Laos" },
+    { "city": "Beirut", "country": "Lebanon" },
+    { "city": "Kuala Lumpur", "country": "Malaysia" },
+    { "city": "Male", "country": "Maldives" },
+    { "city": "Ulaanbaatar", "country": "Mongolia" },
+    { "city": "Naypyidaw", "country": "Myanmar (Burma)" },
+    { "city": "Kathmandu", "country": "Nepal" },
+    { "city": "Pyongyang", "country": "North Korea" },
+    { "city": "Muscat", "country": "Oman" },
+    { "city": "Islamabad", "country": "Pakistan" },
+    { "city": "Manila", "country": "Philippines" },
+    { "city": "Doha", "country": "Qatar" },
+    { "city": "Riyadh", "country": "Saudi Arabia" },
+    { "city": "Singapore", "country": "Singapore" },
+    { "city": "Seoul", "country": "South Korea" },
+    { "city": "Colombo", "country": "Sri Lanka" },
+    { "city": "Damascus", "country": "Syria" },
+    { "city": "Taipei", "country": "Taiwan" },
+    { "city": "Dushanbe", "country": "Tajikistan" },
+    { "city": "Bangkok", "country": "Thailand" },
+    { "city": "Dili", "country": "Timor-Leste" },
+    { "city": "Ankara", "country": "Turkey" },
+    { "city": "Ashgabat", "country": "Turkmenistan" },
+    { "city": "Abu Dhabi", "country": "United Arab Emirates" },
+    { "city": "Tashkent", "country": "Uzbekistan" },
+    { "city": "Sana'a", "country": "Yemen" }
+]

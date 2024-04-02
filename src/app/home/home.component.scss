@@ -1,0 +1,16 @@
+@import '../../styles.scss';
+
+button {
+    height: 50px;
+    width: 100px;
+    border: none;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    border-radius: 8px;
+}
+
+button:hover {
+    color: $gray-200;
+    background-color: $gray-700;
+}
